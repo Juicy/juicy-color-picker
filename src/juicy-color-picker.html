@@ -113,6 +113,14 @@
                 colorInput: root.querySelector("input[type=color].color")
             };
 
+            if (this.hasAttribute("pallete")) {
+                this.attributeChangedCallback("pallete", this.pallete, this.getAttribute("pallete"));
+            }
+
+            if (this.hasAttribute("value")) {
+                this.attributeChangedCallback("value", this.value, this.getAttribute("value"));
+            }
+
             this.renderColors();
         };
 
