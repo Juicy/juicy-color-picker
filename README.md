@@ -1,5 +1,5 @@
 # juicy-color-picker
-Polymer color picker
+Simple color picker
 
 ## Properties
 | Name      | Type     | Default value | Description                                                |
@@ -10,4 +10,4 @@ Polymer color picker
 ## Events
 | Name                               | Description                        |
 |------------------------------------|------------------------------------|
-| `juicy-color-picker-value-changed` | Occurs when selected value changed |
+| `change`							 | Occurs when selected value changed |
