@@ -122,6 +122,8 @@
             }
 
             this.renderColors();
+
+            this.$.valueInput.addEventListener("change", this.setColor.bind(this));
         };
 
         proto.setColor = function (e) {
