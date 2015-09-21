@@ -5,7 +5,9 @@
   "main": "src/juicy-color-picker.html",
   "directories": {},
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-bump": "^0.5.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Juicy/juicy-color-picker"
