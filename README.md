@@ -11,3 +11,7 @@ Simple color picker
 | Name                               | Description                        |
 |------------------------------------|------------------------------------|
 | `change`							 | Occurs when selected value changed |
+
+## License
+
+MIT
