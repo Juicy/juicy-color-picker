@@ -1,5 +1,5 @@
 <!--
-version: 2.0.2
+version: 2.1.0
 -->
 <template id="juicy-color-picker">
     <style>
@@ -107,7 +107,13 @@ version: 2.0.2
         };
 
         proto.attachedCallback = function () {
-            var root = this.createShadowRoot();
+            var root;
+            if (this.attachShadow) {
+                root = this.attachShadow({ mode: 'open' });
+            } else {
+                root = this.createShadowRoot();
+            }
+
             var template = scriptDocument.querySelector("#juicy-color-picker");
             var clone = document.importNode(template.content, true);
 
