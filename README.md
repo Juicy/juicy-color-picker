@@ -12,6 +12,8 @@ Simple color picker
 |------------------------------------|------------------------------------|
 | `change`							 | Occurs when selected value changed |
 
+## [Contributing and Development](CONTRIBUTING.md)
+
 ## License
 
 MIT
