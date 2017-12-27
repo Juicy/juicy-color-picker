@@ -15,6 +15,7 @@
     "examples",
     "bower_components"
   ],
-  "dependencies": {
+  "devDependencies": {
+    "webcomponentsjs": "^1.0.0"
   }
 }
